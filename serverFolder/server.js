@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", function (request, response) {
-  response.send("First Page");
+  response.send("First route");
 });
 
 //when server is ready it calls the callback function
